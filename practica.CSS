@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #ff6f61;
+    padding: 20px;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+}
+
+.producto {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 20px;
+    padding: 15px;
+    width: 200px;
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.producto h3 {
+    color: #ff6f61;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    margin-top: 30px;
+}
+.producto img[alt="Caramelos"] {
+    border: 2px solid #ffcc00; 
+}
+
+.producto h3:contains('Caramelos') {
+    color: #ffcc00; 
+}
+
+
+.producto img[alt="Mazapanes"] {
+    border: 2px solid #a0522d; 
+}
+
+.producto h3:contains('Mazapanes') {
+    color: #a0522d; 
+}
